@@ -24,7 +24,7 @@ $background-color2: #FF3848;
     &__title{
         color: $base-color1;
         text-align: center;
-        font-weight: 400px;
+        font-weight: 400;
         font-size: 64px;
         line-height: 77px;
         margin-bottom: 72px;
@@ -42,7 +42,7 @@ $background-color2: #FF3848;
         color: $base-color1;
         font-size: 26px;
         font-weight: 400;
-        line-height: 39px;
+        line-height: 150%;
         letter-spacing: 0em;
         text-align: center;
         width:62%;
@@ -67,6 +67,7 @@ $background-color2: #FF3848;
      position: absolute;   
      left: 14%;
      bottom: 0;
+     margin-bottom: 3px;
      @media screen and (max-width:1550px){
         left: 4%;
      }
@@ -78,7 +79,7 @@ $background-color2: #FF3848;
     }
     &__starImg{
         position: absolute;   
-        top: 0;
+        top: 28px;
         right: 14%;
         @media screen and (max-width:1550px){
             right: 4%;

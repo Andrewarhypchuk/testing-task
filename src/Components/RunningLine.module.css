@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.runningLine {
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #FF3848;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+@media screen and (max-width: 990px) {
+  .runningLine {
+    height: 64px;
+    margin-bottom: 50px;
+  }
+  .runningLine img {
+    height: 30px;
+  }
+}/*# sourceMappingURL=RunningLine.module.css.map */

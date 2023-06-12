@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+@font-face{
+  font-family: "Rifton";
+  src: url("./Assets/fonts/FontsFree-Net-rifton-norm.ttf") format("truetype");
+}
+$base-color1: #FFFFFF;
+$base-color2: #FF3848;
+$background-color1: #151515;
+$background-color2: #FF3848;
+body{
+  background-color: $background-color1;
+}
+.content__wrapper{
+     width: 100%;
+}

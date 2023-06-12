@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+$base-color1: #FFFFFF;
+$base-color2: #FF3848;
+$background-color1: #151515;
+$background-color2: #FF3848;
+.runningLine{
+    width:100%;
+    height:100px;
+    margin: 0 auto;
+    background-color: $background-color2;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+
+    @media screen and (max-width:990px){
+        height: 64px;
+        margin-bottom: 50px;
+        img{
+            height: 30px;
+        }
+    }
+}

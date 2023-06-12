@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+$base-color1: #FFFFFF;
+$base-color2: #FF3848;
+$background-color1: #151515;
+$background-color2: #FF3848;
+
+.main{
+    width:100%;
+    padding:0px 14% 0px 14%;
+    padding-top: 110px;
+    font-family: "Rifton";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    @media screen and (max-width:990px){
+        padding:0px 4% 0px 4%; 
+    }
+
+    &__title{
+        color: $base-color1;
+        text-align: center;
+        font-weight: 400px;
+        font-size: 64px;
+        line-height: 77px;
+        margin-bottom: 72px;
+        @media screen and (max-width:990px){
+            margin-bottom: 50px;
+            width: 91%;
+           font-size: 28px;
+            line-height: 34px;
+        }
+        span{
+            color: $base-color2;
+        }
+    }
+    &__subtitle{
+        color: $base-color1;
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 39px;
+        letter-spacing: 0em;
+        text-align: center;
+        width:62%;
+        margin-bottom: 42px;
+        @media screen and (max-width:990px){
+            margin-bottom: 67px;
+            width: 91%;
+           font-size: 18px;
+            line-height: 27px;
+        }
+        span{
+            color: $base-color2;
+        }
+    }
+    &__arrowDown{
+        margin-bottom: 45px;
+        @media screen and (max-width:990px){
+            margin-bottom: 67px;
+        }
+    }
+    &__devileImg{
+     position: absolute;   
+     left: 14%;
+     bottom: 0;
+     @media screen and (max-width:1550px){
+        left: 4%;
+     }
+     @media screen and (max-width:990px){
+        height: 164px;
+        width: 114px;
+    
+     }
+    }
+    &__starImg{
+        position: absolute;   
+        top: 0;
+        right: 14%;
+        @media screen and (max-width:1550px){
+            right: 4%;
+        }
+        @media screen and (max-width:990px){
+            height: 56px;
+            width: 56px;
+             top:-70px;
+        }
+    }
+}
